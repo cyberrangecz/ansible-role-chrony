@@ -1,0 +1,16 @@
+- name: Set timezone
+  timezone:
+    name: "{{ chrony_timezone }}"
+
+- name: Install chrony
+  apt:
+    name: chrony
+    state: present
+    cache_valid_time: 3600
+
+- name: Copy chrony configuration template
+  template:
+    src: chrony.conf.j2
+    dest: /etc/chrony/chrony.conf
+  notify:
+    - restart chronyd
