@@ -1,0 +1,2 @@
+chrony_timezone: Etc/UTC
+chrony_ntp_server: 1.debian.pool.ntp.org
