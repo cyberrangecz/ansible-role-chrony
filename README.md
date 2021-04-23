@@ -15,15 +15,21 @@ For NTP synchronization, you can use either a NTP pool (recommended) or an indiv
     ```
 
 ## Parameters
-### Optional parameters
+
+Optional.
+
 - `chrony_timezone` - timezone to be set. Default: `Etc/UTC`
 - `chrony_ntp_server` - NTP server/pool to use for synchronization. Default: `1.debian.pool.ntp.org`
 
-## Example 
+## Example
+
+The simplest example of NTP timezone settings.
+
 ```yaml
 roles:
   - role: chrony
     chrony_timezone: Europe/Prague
     chrony_ntp_server: pool.ntp.org
+    become: yes
 ```
 
