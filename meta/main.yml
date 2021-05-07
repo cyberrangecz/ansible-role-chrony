@@ -1,0 +1,17 @@
+galaxy_info:
+    role_name: chrony
+    author: KYPO Team
+    description: Installation and configuration of Network Time Protocol implementation.
+    licence: MIT
+    min_ansible_version: 2.10
+    platforms:
+        - name: Debian
+          versions:
+              - all
+        - name: Ubuntu
+          versions:
+              - all
+        - name: Kali
+          versions:
+              - all
+
