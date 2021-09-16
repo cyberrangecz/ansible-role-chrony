@@ -2,6 +2,7 @@ galaxy_info:
     role_name: chrony
     author: KYPO Team
     description: Installation and configuration of Network Time Protocol implementation.
+    company: Masaryk university
     licence: MIT
     min_ansible_version: 2.10
     platforms:
@@ -14,4 +15,5 @@ galaxy_info:
         - name: Kali
           versions:
               - all
-
+    galaxy_tags: []
+dependencies: []
