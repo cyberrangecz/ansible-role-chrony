@@ -33,3 +33,12 @@ roles:
     become: yes
 ```
 
+## License
+
+Copyright (c) KYPO Team. All rights reserved.
+
+Licensed under the [MIT](LICENSE) license.
+
+## Acknowledgements
+
+[KYPO Team](https://crp.kypo.muni.cz/)
